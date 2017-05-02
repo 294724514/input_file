@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="file" id="file">
+<div id="image-wrap"></div>
+<script src="jquery-3.1.1.min.js"></script>
+<script src="image-file-visible.js"></script>
+<script>
+    $(document).ready(function(){
+//图片显示插件
+        $.imageFileVisible({wrapSelector: "#image-wrap",
+            fileSelector: "#file",
+            width: 100,
+            height: 50
+        });
+    });
+    function a(){
+        alert('dfads');
+    }
+</script>
+</body>
+</html>
