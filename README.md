@@ -1,0 +1,2 @@
+# input_file
+input的type为file时点击选择图片在页面上显示即将上传的图片
